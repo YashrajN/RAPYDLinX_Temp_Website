@@ -1,0 +1,96 @@
+body
+{
+	padding: 0;
+	margin: 0;
+	font-family: arial;
+/*	display: flex;
+	flex-direction: column;*/
+	/*background is for what it is*/
+	/*colour is for normal text*/
+	--darkModeButtonColor: yellow;
+	--backgroundColor: white;
+	--normalTextColor: black;
+	--navBarColor: #0D1D6E;
+	--navBarText: #000;
+	--navHoverColor: rgb(0,170,255);
+	--delay: 1s;
+
+	/*transition: var(--delay);*/
+	background: var(--backgroundColor);
+	color: var(--normalTextColor);
+}
+
+/*body.dark
+{
+	--darkModeButtonColor: var(--navHoverColor);
+	--backgroundColor: rgb(20, 20, 20);
+	--normalTextColor: white;
+	--navBarColor: rgb(40,40,40);
+	--navBarText: white;
+}*/
+
+.icon
+{
+	/*color: var(--normalTextColor)*/
+}
+
+.Logo img
+{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 70%;
+}
+
+ul
+{
+	position: fixed;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	min-width: 100%;
+	background: var(--navBarColor);
+	/*background of nav bar*/
+}
+
+ul h3
+{
+	float: left;
+	list-style-type: none;
+	padding: 0px 50px 0px 20px; 
+	color: #FFFFFF;
+}
+
+li:hover 
+{
+	/*background: grey;*/
+	/*Background of hover*/
+	cursor: pointer;
+}
+
+
+.contacts a
+{
+	text-decoration: none;
+	color: var(--navHoverColor);
+	padding-right: 50px;
+}
+
+.contacts a:hover
+{
+	text-decoration: underline;
+}
+
+.contacts a:visited
+{
+	text-decoration: none;
+	color: var(--navHoverColor);
+}
+
+.main
+{
+	max-width: 700px;
+	margin: 0 auto;
+	padding-top: 50px;
+
+}
